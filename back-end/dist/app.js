@@ -1,0 +1,13 @@
+import express from 'express';
+import { postRouter } from './routes/postRoutes';
+import { userRouter } from './routes/userRoutes';
+import { commentRouter } from './routes/commentRoutes';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+export const app = express();
+app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use('/api/post', postRouter);
+app.use('/api/user', userRouter);
+app.use('/api/comment', commentRouter);
