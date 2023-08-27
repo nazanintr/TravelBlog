@@ -54,4 +54,32 @@ If you have any questions or feedback, please don't hesitate to reach out.
 
 Enjoy your time on the Travel Blog! 🌍✈️
 
+---
 
+## Screenshots
+
+Here are some screenshots to give you an overview of the project:
+
+### Login Page and Error Notifications
+![Login Page](./screenshots/login.png)
+![Login Page](./screenshots/login_02.png)
+
+### Sign Up Page and Alerts
+![Sign Up Page](./screenshots/signup.png)
+![Sign Up Page](./screenshots/signup_01.png)
+Users are redirected to the login page and receive a notification if they attempt to create a duplicate account.
+![Sign Up Page](./screenshots/signup_notification.png)
+
+### Home Page
+![Home Page - Desktop View](./screenshots/homepage.png)
+![Home Page - Mobile View](./screenshots/homepage_responsive.png)
+![notification](./screenshots/notification.png)
+
+### Post Individual Page and Comment Section
+![Post Individual Page - Desktop View](./screenshots/post.png)
+![Post Individual Page - Mobile View](./screenshots/post_01.png)
+
+### Comment Section
+![Comment Section](./screenshots/comments.png)
+![Comment Section - Mobile View](./screenshots/comment_responsive.png)
+![reply](./screenshots/reply.png)
